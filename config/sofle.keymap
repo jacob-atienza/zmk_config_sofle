@@ -8,11 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#define K_UNDO   &kp LC(Z)
-#define K_CUT    &kp LC(X)
-#define K_COPY   &kp LC(C)
-#define K_PASTE  &kp LC(V)
-
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -45,7 +40,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &trans     &trans    &trans     &trans    &trans    &trans
 &trans      &kp HOME      &kp PG_UP     &kp END       &kp DEL       &kp INS              &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp BSPC  &kp RET
-&trans      K_UNDO        &kp LC(Y)     K_CUT         K_COPY        K_PASTE              &kp LC(A)  &kp LC(S) &kp LC(F)  &kp LC(D) &trans    &trans
+&trans      &kp LC(Z)     &kp LC(Y)     &kp LC(X)      &kp LC(C)     &kp LC(V)            &kp LC(A)  &kp LC(S) &kp LC(F)  &kp LC(D) &trans    &trans
 &trans      &trans        &trans        &trans        &trans        &trans     &trans    &trans     &trans    &trans     &trans    &trans    &trans
               &trans      &trans        &trans        &trans        &trans     &trans    &trans     &trans    &trans     &trans
             >;
