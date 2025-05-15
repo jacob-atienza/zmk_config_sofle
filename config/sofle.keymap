@@ -40,7 +40,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &trans     &trans    &trans     &trans    &trans    &trans
 &trans      &kp HOME      &kp PG_UP     &kp END       &kp DEL       &kp INS              &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp BSPC  &kp RET
-&trans      &kp LC(Z)     &kp LC(Y)     &kp LC(X)      &kp LC(C)     &kp LC(V)            &kp LC(A)  &kp LC(S) &kp LC(F)  &kp LC(D) &trans    &trans
+&trans      &cm Z         &cm Y         &cm X         &cm C         &cm V                &cm A      &cm S     &cm F      &cm D     &trans    &trans
 &trans      &trans        &trans        &trans        &trans        &trans     &trans    &trans     &trans    &trans     &trans    &trans    &trans
               &trans      &trans        &trans        &trans        &trans     &trans    &trans     &trans    &trans     &trans
             >;
