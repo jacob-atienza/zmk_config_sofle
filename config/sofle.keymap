@@ -26,10 +26,10 @@
 
         lower_layer {
             bindings = <
-&kp GRAVE  &kp F1        &kp F2        &kp F3      &kp F4        &kp F5                          &kp F6         &kp F7           &kp F8  &kp F9     &kp F10       &kp F11
-&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5                             &kp N6            &kp N7             &kp N8     &kp N9   &kp N0       &kp F12
-&trans     &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR      &kp PERCENT                        &kp COMMA         &kp DOT            &kp MINUS     &kp KP_PLUS  &kp KP_MINUS   &trans
-&trans     &kp EQUAL     &kp MINUS     &kp PLUS      &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI      &kp COLON    &kp BACKSLASH  &trans
+&kp GRAVE  &kp F1        &kp F2        &kp F3        &kp F4          &kp F5                             &kp F6            &kp F7             &kp F8        &kp F9                &kp F10                &kp F11
+&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5                             &kp N6            &kp N7             &kp N8        &kp N9                &kp N0                 &kp F12
+&trans     &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR      &kp PERCENT                        &kp CARET         &kp AMPS           &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&trans     &kp EQUAL     &kp MINUS     &kp PLUS      &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI      &kp COLON             &kp BACKSLASH          &trans
                          &trans        &trans        &trans          &trans           &trans    &trans  &trans            &trans             &trans        &trans
             >;
 
@@ -39,9 +39,9 @@
         raise_layer {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans    &trans    &trans  &trans     &trans    &trans
-&trans      &kp HOME      &kp PG_UP     &kp END       &kp DEL       &kp INS                         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp BSPC  &kp RET
-&trans      &cm Z         &cm Y         &cm X         &cm C         &cm V                           &cm A     &cm S     &cm F   &cm D      &trans    &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans    &trans    &trans  &trans     &trans    &trans
+&trans      &kp HOME      &kp PG_UP     &kp END       &kp DEL       &kp INS                         &trans    &trans    &trans  &trans     &kp BSPC  &kp RET
+&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans    &trans
+&trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &trans    &trans  &trans    &trans    &trans  &trans     &trans    &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans    &trans    &trans
             >;
 
