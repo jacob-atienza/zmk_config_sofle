@@ -42,7 +42,7 @@
 &trans      &kp HOME      &kp PG_UP     &kp END       &kp DEL       &kp INS                         &trans    &trans    &trans  &trans     &kp BSPC  &kp RET
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans    &trans
 &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &trans    &trans  &trans    &trans    &trans  &trans     &trans    &trans
-                          &trans        &trans        &trans        &trans        &trans    &trans  &trans    &trans    &trans
+                          &trans        &trans        &trans        &trans        &trans    &trans  &trans    &trans    &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
